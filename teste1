@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      @media only screen and (max-width:480px){
+        .btn-td {display:inline-block !important; width:48% !important; padding:0 6px !important;}
+        .btn-img {width:100% !important; height:auto !important;}
+      }
+    </style>
+    <script>
+      console.log("Iniciando renderização dos botões de loja...");
+    </script>
+  </head>
+  <body onload="console.log('Corpo do e-mail carregado. Verifique se as imagens estão lado a lado.');">
+
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">
+      <tr>
+        <!-- Coluna 1 -->
+        <td class="btn-td" align="center" style="padding:0 8px; vertical-align:middle;">
+          <a href="<https://play.google.com/store/apps/details?id=br.com.netcom.oletv&pcampaignid=web_share>" target="_blank" style="text-decoration:none;" onclick="console.log('Botão Play Store clicado');">
+            <img class="btn-img" src="<https://email-editor-production.s3.amazonaws.com/images/725226/APPS/bot%C3%A3o-play-store-vazado%201.png>" alt="Google Play - Baixe na Play Store" style="display:block; width:150px; max-width:100%; height:auto; border:0; outline:none; text-decoration:none;">
+          </a>
+        </td>
+
+        <!-- Coluna 2 -->
+        <td class="btn-td" align="center" style="padding:0 8px; vertical-align:middle;">
+          <a href="<https://apps.apple.com/br/app/net-com-tv/id6673910279>" target="_blank" style="text-decoration:none;" onclick="console.log('Botão App Store clicado');">
+            <img class="btn-img" src="<https://email-editor-production.s3.amazonaws.com/images/725226/APPS/bot%C3%A3o-app-store-vazado-1.png>" alt="App Store - Baixe na App Store" style="display:block; width:150px; max-width:100%; height:auto; border:0; outline:none; text-decoration:none;">
+          </a>
+        </td>
+      </tr>
+    </table>
+
+  </body>
